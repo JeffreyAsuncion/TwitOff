@@ -43,3 +43,10 @@ db.create_all()
 >>> t6 = Tweet(text='Derek Jeter!')
 >>> db.session.add(t6)
 >>> db.session.commit()
+
+
+
+========================
+video 2
+
+pipenv install
