@@ -101,11 +101,43 @@ SELECT
     tweet.embedding,
     user.username
 FROM tweet
-JOIN user on tweet.user_id = user.id
+JOIN user on tweet.user_id = user.id;
+
+0:48:21
+
+1:08:55 In build week and many data science projects
+Paradighm if you are in a big enough team
+not full stack data scientist doing everything end to end
+common paradign similar to this build week
+
+You will play the role of data engineer
+1. set up the database
+2. deploy the model
+
+Unit Four person 
+- notebook model developement
+- train model
+
+support them by 
+- making sure they use a pipenv
+- or conda environment
+- so that you can re-create their enviroment
+
+their ideal delivery to you 
+- here is a notebook
+- here is the things i did
+- best teammate ever will have everything factored into funcitons
+give you a 
+- notebook
+- pickle file
+
+you will train a model off line
+use it to make predictions
+1:10:28   1:15:00
+what ever preprocessing to get the data into the format needed for prediction
 
 
-
-
+1:23:29
 
 
 
