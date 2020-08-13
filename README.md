@@ -340,3 +340,8 @@ import numpy as np
 
 
 
+41-44
+      <div id="prediction">
+        <h2>{{ title }}</h2>
+        <p>{{ message }}</p>
+      </div>
