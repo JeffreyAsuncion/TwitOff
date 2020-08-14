@@ -43,10 +43,15 @@
         {% for user in users %}
         <a href="/user/{{ user.username }}"><span class="stack">@{{ user.username }}</span></a>
         {% endfor %}
-        <form action="/user" method="post">@
+        <form action="/user" method="post">
           <input type="text" name="user_name" placeholder="User to add">
           <input type="submit" value="Add User">
         </form>
+      </div>
+      <div id="footer">
+        <hr>
+        &copy; Copyright 2020      Jeffrey Asuncion |
+        <a href="https://github.com/JeffreyAsuncion/">source</a>
       </div>
       {% endblock %}
     </article>
