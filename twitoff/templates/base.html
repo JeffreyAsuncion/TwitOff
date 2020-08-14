@@ -48,10 +48,17 @@
           <input type="submit" value="Add User">
         </form>
       </div>
-      <div id="footer">
-        <hr>
-        &copy; Copyright 2020      Jeffrey Asuncion |
-        <a href="https://github.com/JeffreyAsuncion/">source</a>
+      <div id="prediction">
+        <h2>Results</h2>
+        <br>
+        <p>{{ message }}</p>
+        <br>
+        <a href="/" class="button warning">Try Another Prediction</a>
+        <p><div id="footer">
+          <hr>
+          &copy; Copyright 2020      Jeffrey Asuncion |
+          <a href="https://github.com/JeffreyAsuncion/">source</a>
+        </div></p>
       </div>
       {% endblock %}
     </article>
