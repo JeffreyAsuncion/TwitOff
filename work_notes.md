@@ -93,7 +93,7 @@ CREATE DATABASE in FLASK SHELL
 >>> db.session.add(t6)
 >>> db.session.commit()
 
-8a. setup db in webapp
+8 a. setup db in webapp
 def create_app():
     '''Create and configure an instance of the Flask application'''
 
@@ -103,10 +103,19 @@ def create_app():
     db.init_app(app)
 
 
+NOTE any variable not defined in the file must be 
+from .file import variable
+
+
+
 9. connect to user table and tweet table with TablePlus
 ... confirm inserts to db
-10. 
 
+
+
+
+
+Lecture 2 
 
 
 
