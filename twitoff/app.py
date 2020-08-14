@@ -21,6 +21,8 @@ def create_app():
     @app.route('/user/<name>', methods=['GET'])
     def user(name=None, message=''):
         name = name or request.values['user_name']
+        if '@' in name:
+            name = name.replace('@','')
         try:
             if request.method == 'POST':
                 add_user_tweepy(name)
